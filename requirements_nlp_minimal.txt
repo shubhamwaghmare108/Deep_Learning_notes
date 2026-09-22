@@ -1,0 +1,23 @@
+# Minimal requirements for NLP notebooks only
+# Install with: pip install -r requirements_nlp_minimal.txt
+
+# Core data/ML utilities
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.5.1
+
+# NLP libraries
+nltk>=3.8.1
+spacy>=3.7.5
+gensim>=4.3.2
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+transformers>=4.42.4
+sentence-transformers>=3.1.0
+
+# Optional if you run Hugging Face model workflows
+# torch>=2.3.1
+
+# Download required NLP resources after install
+# python -m nltk.downloader punkt stopwords wordnet omw-1.4 averaged_perceptron_tagger
+# python -m spacy download en_core_web_sm

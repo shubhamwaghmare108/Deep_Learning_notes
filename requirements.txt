@@ -1,0 +1,24 @@
+# Deep Learning Notes environment
+# Install with: pip install -r requirements.txt
+
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.4
+seaborn>=0.13.2
+scikit-learn>=1.5.1
+nltk>=3.8.1
+spacy>=3.7.5
+gensim>=4.3.2
+transformers>=4.42.4
+torch>=2.3.1
+tensorflow>=2.16.1
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+pymysql>=1.1.1
+mtcnn>=0.1.1
+sentence-transformers>=3.1.0
+
+# Optional: if you want to download spaCy model data
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_md
+# python -m nltk.downloader punkt stopwords wordnet omw-1.4 averaged_perceptron_tagger

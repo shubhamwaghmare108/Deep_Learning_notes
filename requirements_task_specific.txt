@@ -1,0 +1,36 @@
+# Task-specific requirements for Deep Learning Notes
+# Optimized for text preprocessing, NLP, embeddings, and deep learning notebooks.
+# Install with: pip install -r requirements_task_specific.txt
+
+# Core scientific stack
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.4
+seaborn>=0.13.2
+scikit-learn>=1.5.1
+
+# NLP and text processing
+nltk>=3.8.1
+spacy>=3.7.5
+gensim>=4.3.2
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+sentence-transformers>=3.1.0
+transformers>=4.42.4
+
+# Deep learning
+torch>=2.3.1
+tensorflow>=2.16.1
+
+# Data access / integrations
+pymysql>=1.1.1
+
+# Vision / multimodal helpers
+mtcnn>=0.1.1
+
+# Notebook support
+ipykernel>=6.29.5
+
+# Optional NLP downloads after install
+# python -m nltk.downloader punkt stopwords wordnet omw-1.4 averaged_perceptron_tagger
+# python -m spacy download en_core_web_sm
